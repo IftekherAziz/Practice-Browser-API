@@ -15,3 +15,50 @@
 ৫. ভিডিওতে চারটা লেভেল এর লোকাল স্টোরেজ রিলেটেড কাজ দেয়া হয়েছে। সেগুলা একটু ভালো করে করো। 
 
 ৬. আমাদের গিটহাব এ issue-tracker নামে একটা রিপোজিটরি আছে।সেখানে কোন একটা issue যোগ করার পর সেটাকে close করা যায়না। আবার ডিলিট ও করা যায় না। তো তোমার কাজ হচ্ছে সেই সাইটের বাগ ফিক্স করা। এই ছাড়া আরো ইস্যু আছে কি নাই। সেটা আমি বলে দিচ্ছি না। তোমার কাজ হচ্ছে ওয়েবসাইট ঘেঁটেঘুটে দেখা। কি কি কাজ করার কথা সেটা ঠিক মতো কাজ করতেছে কিনা। এতে অপরিচিত ওয়েবসাইট ঘাটতে তোমার কিছু অভিজ্ঞতা হবে। তারপর দেখো সেখানে কোন ইস্যু থাকতে পারে কিনা। থাকলে সেগুলা ফিক্স করার চেষ্টা করো। 
+
+
+# Practice Task for Local Storage: Level 1
+
+1. How to clear local storage
+2. Set a local storage item: key: name, value: Sakib Khan
+3. Set a local storage item: key: age, value: 40
+4. Get the local storage item you have set.
+5. Remove the local storage item: key 'name' & key 'age'
+6. Set a object as a local storage item. The object is {
+    firstName: 'John', lastName: 'Doe'
+}
+
+# Practice task for local storage: Level 2
+
+Step 1: Html file will have a p tag and a button
+
+Setp 2: The p tag will show 'the count ' which is initially 0(initially the value of the local storage is 0)
+
+Step 3: Every time, after click on the button , the number will be increased by 1 & the result will be shown in the p tag.
+
+Step 4: With every click on the button, the result will be stored in the local storage also.
+
+Step 5: Now the result is stored in the local storage , so if you reload the page or close the tab & open again , the result of the  "the count " is not 0 .Rather it will show the value from local storage without reset.
+
+# Practice task for local storage: Level 3
+
+Step 1: Create a form like the picture.
+
+Step 2: Take the inputs
+
+Step 3: If you click on the "Send name" button then the name will be set on the local storage .Do the same for other button.
+
+Step 4: If you click on the "Delete name" button the name key and the value will be deleted from the local storage.Do the same for other button.
+
+Step 5: If you click on the "Reset " button then the key & value will be reset from the local storage.
+
+# Practice task for local storage: Level 4
+
+Step 1: All the task are same as above.
+
+Step 2: Add a new button before reset button called " Send".
+
+Step 3: If you click on the "Send " button , all of the inputs (name, email and message) will be sent to the local storage at the same time.
+
+
+
