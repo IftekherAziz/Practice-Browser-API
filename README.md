@@ -63,19 +63,44 @@ Overall, the choice between session storage and local storage depends on the typ
 # Practice Task for Local Storage: Level 1
 
 1. How to clear local storage ?
-// localStorage.clear();
+
+>> localStorage.clear();
 
 2. Set a local storage item: key: name, value: Sakib Khan
 
+>> localStorage.setItem('name', 'Sakib Khan');
+
 3. Set a local storage item: key: age, value: 40
+
+>> localStorage.setItem('age', 40);
 
 4. Get the local storage item you have set.
 
+>> localStorage.getItem('name', 'age');
+
 5. Remove the local storage item: key 'name' & key 'age'
+
+>> localStorage.removeItem('name');
+>> localStorage.removeItem('age');
 
 6. Set a object as a local storage item. The object is {
     firstName: 'John', lastName: 'Doe'
 }
+
+>> const user = {
+  firstName: 'John',
+  lastName: 'Doe'
+};
+
+   localStorage.setItem('user', JSON.stringify(user));
+
+// To get those values:
+
+>> const storedUser = localStorage.getItem('user');
+   const userObj = JSON.parse(storedUser);
+
+   console.log(userObj); 
+
 
 # Practice task for local storage: Level 2
 
